@@ -10,7 +10,7 @@ kintone の特定Appから休暇申請を拾ってきておやすみ情報を付
 ### clasp インストール
 
 ```
-yarn add clasp -g
+yarn global add @google/clasp
 ```
 
 ### gasへのpush
@@ -22,23 +22,23 @@ clasp push
 ### 必須プロパティ値
 
 - SHEET_ID
-  勤務表のSpreadsheetのIDを指定する
+  - 勤務表のSpreadsheetのIDを指定する
 - USERS_SHEET_NAME
-  勤務表Spreadsheet内の、勤務表作成対象ユーザIDを書くためのシートの名前（タブ名）を指定する
+  - 勤務表Spreadsheet内の、勤務表作成対象ユーザIDを書くためのシートの名前（タブ名）を指定する
 - SLACK_TOKEN
-  SLACKのTOKEN
+  - SLACKのTOKEN
 - SLACK_CHANNEL_ID
-  SLACKの出勤状況ステータス用チャンネルのチャンネルID
+  - SLACKの出勤状況ステータス用チャンネルのチャンネルID
 - KINTONE_CLIENT_ID
-  KintoneのClientID
+  - KintoneのClientID
 - KINTONE_CLIENT_SECRET
-  KintoneのClient Secret
+  - KintoneのClient Secret
 - KINTONE_AUTH_CALLBACK
-  Kintone OAuth2 での認証コールバック関数名(index.ts内のauthCallback)
+  - Kintone OAuth2 での認証コールバック関数名(index.ts内のauthCallback)
 - KINTONE_SUB_DOMAIN
-  Kintone契約サブドメイン
+  - Kintone契約サブドメイン
 - KINTONE_APP_ID
-  Kintoneでの休暇申請を管理しているAppのID
+  - Kintoneでの休暇申請を管理しているAppのID
 
 # ご注意
 
